@@ -1,0 +1,58 @@
+Exercise 4: Employee Management System
+
+
+1.	Understand Array Representation:
+
+	Explain how arrays are represented in memory and their advantages.
+
+
+       Arrays are stored in contiguous memory locations, which means that each element of the array is placed next to its pervious element. Array provides constant time access to the elements through indexing, as the index of an array directly maps to a memory address.
+
+       Advantages
+
+       Fast Access: O(1) time complexity for accessing elements by index.
+
+Memory Efficiency: Arrays use less memory overhead compared to linked structures like linked lists.
+
+
+4.	Analysis:
+	Analyze the time complexity of each operation (add, search, traverse, delete).
+
+	Add Operation
+ 	
+	Time Complexity(1)(if there is space in the array).
+	Explanation: Adding an element to the end of the array is a constant time operation.
+
+	Search Operation
+	
+	Time Complexity: O(n).
+	Explanation: In the worst case, the search operation may need to iterate through all n elements to find the desired employee.
+
+	Traverse Operation
+	
+	Time Complexity: O(n).
+        Explanation: Traversing through all n elements requires visiting each element once.
+
+	Delete Operation:
+        Time Complexity: O(n).
+        Explanation: Finding the element to delete requires O(n) time, and swapping it with the last element and reducing the size by one takes O(1) time.
+
+
+        
+
+	Discuss the limitations of arrays and when to use them.
+
+	Limitations:
+        Fixed Size: Arrays have a fixed size, which means the capacity must be defined at initialization, and resizing requires creating a new array and copying elements.
+
+        Inefficient Insertions and Deletions: Insertions and deletions (except at the end) can be inefficient as they may require shifting elements.
+
+
+	When to Use Arrays:
+
+	When the size of the dataset is known and fixed.
+	When fast access to elements by index is required.
+	When memory overhead needs to be minimized.
+	
+         
+

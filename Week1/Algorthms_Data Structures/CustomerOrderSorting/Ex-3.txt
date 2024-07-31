@@ -1,0 +1,50 @@
+1.Understand Sorting Algorithms:
+
+Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+
+Bubble Sort:
+Description: A simple comparison-based algorithm where each pair of adjacent elements is compared, and the elements are swapped if they are in the wrong order. This process is repeated until the array is sorted.
+Time Complexity:
+Best Case: O(n)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+Insertion Sort:
+Description: Builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
+Time Complexity:
+Best Case: O(n)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+Quick Sort:
+Description: An efficient, comparison-based, divide-and-conquer sorting algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot.
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2)
+Merge Sort:
+Description: A divide-and-conquer algorithm that was invented by John von Neumann in 1945. It divides the unsorted list into sublists until each sublist contains a single element, then merges the sublists to produce a sorted list.
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+
+
+4. Analysis
+Compare the Performance (Time Complexity) of Bubble Sort and Quick Sort:
+
+Bubble Sort:
+
+Best Case: O(n) - When the array is already sorted.
+Average Case: O(n^2) - Nested loops over the array.
+Worst Case: O(n^2) - When the array is sorted in reverse order.
+Quick Sort:
+
+Best Case: O(n log n) - When the pivot selection divides the array into two equal halves.
+Average Case: O(n log n) - The array is divided into two parts with the pivot at the correct position.
+Worst Case: O(n^2) - When the pivot selection results in the most unbalanced partitions (e.g., the smallest or largest element).
+
+
+Why Quick Sort is Generally Preferred Over Bubble Sort:
+
+Efficiency: Quick Sort has a much better average-case performance (O(n log n)) compared to Bubble Sort (O(n^2)).
+Scalability: Quick Sort scales better with larger datasets due to its divide-and-conquer approach.
+Practical Performance: Despite its O(n^2) worst-case scenario, Quick Sort's worst case is rare with good pivot selection techniques, making it more practical for real-world applications.

@@ -1,0 +1,52 @@
+Task Management System
+
+1.	Understand Linked Lists:
+	Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+
+	
+	They are:
+	
+	Singly Linked List:
+	Structure: Each node contains data and a reference (or link) to the next node in the sequence.
+	Characteristics: Unidirectional traversal (can only traverse from the head to the last node).
+	Advantages: Simple to implement, uses less memory per node compared to doubly linked lists.
+	Disadvantages: Cannot traverse backward, no direct access to nodes except the head.
+
+	Doubly Linked List:
+	Structure: Each node contains data, a reference to the next node, and a reference to the previous node.
+	Characteristics: Bidirectional traversal (can traverse from head to tail and vice versa).
+	Advantages: Easier to delete nodes and can be traversed in both directions.
+	Disadvantages: More complex to implement, uses more memory per node due to extra reference.
+
+
+4.	Analysis:
+
+	Analyze the time complexity of each operation.
+	
+	Add Operation:
+
+	Time Complexity: O(n) in the worst case (when adding a task to the end of the list).
+	Explanation: Adding an element to the end of the list requires traversing the entire list to find the last node.
+
+	Search Operation:
+
+	Time Complexity: O(n).
+	Explanation: In the worst case, the search operation may need to iterate through all n nodes to find the desired task.
+
+	Traverse Operation:
+
+	Time Complexity: O(n).
+	Explanation: Traversing through all n nodes requires visiting each node once.
+
+	Delete Operation:
+
+	Time Complexity: O(n).
+	Explanation: Finding the element to delete requires O(n) time, and adjusting the links takes O(1) time.
+	
+ 	Discuss the advantages of linked lists over arrays for dynamic data.
+	
+	Advantages of Linked Lists over Arrays for Dynamic Data:
+
+	Dynamic Size: Linked lists can easily grow and shrink in size by adding or removing nodes, whereas arrays have a fixed size.
+	Efficient Insertions/Deletions: Linked lists allow efficient insertions and deletions, especially at the beginning or middle of the list, as only the links need to be adjusted.
+	Memory Utilization: Linked lists can efficiently utilize memory by allocating nodes as needed, whereas arrays may waste memory due to preallocated capacity.

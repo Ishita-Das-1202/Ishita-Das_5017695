@@ -1,0 +1,35 @@
+E-commerce Platform Search Function
+
+1.Understand Asymptotic Notation:
+
+Explain Big O notation and how it helps in analyzing algorithms
+
+ Big O notation describes the upper bound of the time complexity of an algorithm. It helps to classify algorithms according to how their run time or space requirements
+ grow as the input size grows.It provides a high-level understanding of the efficiency of an algorithm, allowing for comparison between different algorithms.
+
+
+Describe the best, average, and worst-case scenarios for search operations.
+
+best-Case Scenario: The minimum time an algorithm takes to complete. For a search operation, this occurs when the element is found in the first comparison.
+Average-Case Scenario: The expected time an algorithm takes, assuming the input is random. This gives a realistic expectation of performance.
+Worst-Case Scenario: The maximum time an algorithm takes. For a search operation, this occurs when the element is not found or is the last element checked.
+
+4.Analysis:
+
+Compare the time complexity of linear and binary search algorithms.
+
+Linear Search:
+
+Best-Case: O(1) - The element is found in the first comparison.
+Average-Case: O(n/2) - On average, half the elements are checked.
+Worst-Case: O(n) - The element is the last one checked or not present.
+Binary Search:
+
+Best-Case: O(1) - The element is found in the first comparison.
+Average-Case: O(log n) - The array is divided in half each time.
+Worst-Case: O(log n) - The element is not present, and the array is fully divided.
+
+Discuss which algorithm is more suitable for your platform and why.
+
+Linear Search is simple and works well for small datasets or unsorted data. It is easy to implement but not efficient for large datasets due to its O(n) time complexity.
+Binary Search is more suitable for large datasets due to its O(log n) time complexity, but it requires the data to be sorted.

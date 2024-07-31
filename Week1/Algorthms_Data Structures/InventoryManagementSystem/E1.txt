@@ -1,0 +1,38 @@
+Inventory Management System
+
+1.Understand the Problem:
+
+Q)Explain why data structures and algorithms are essential in handling large inventories.
+
+Data structures and algorithm are very essential  for handling large inventories because they help in  performing the inventory  operations 
+such as searching for a product, adding new  products, updating existing products and deleting products efficiently with in the minimum time
+possible which is crucial for maintaining a responsive and scalable system.
+
+Q)Discuss the types of data structures suitable for this problem.
+
+Several data structures can be  used in an inventory management system,each  with it's own advantages:
+
+Array :Provides fast iteration and indexed access  but is valid on for fixed memory size,it cannot add element beyoned the alllocated size.
+
+LinkedList :Act fast only when  elements needed to added or deleted at head or tail part but becomes slow for adding  or deleting elements in 
+the middle and seatching operation.
+
+HashMap :Offers average-case constant time complexiting for add,update and delete operations.
+
+
+4. 
+Analyze the time complexity of each operation (add, update, delete) in your chosen data structure.
+
+Add Product: O(n) in the worst case, as we need to traverse to the end of the linked list.
+Update Product: O(n) in the worst case, as we need to search through the linked list.
+Delete Product: O(n) in the worst case, as we need to search through the linked list.
+Get Product: O(n) in the worst case, as we need to search through the linked list.
+
+Discuss how you can optimize these operations.
+
+To optimize these operations, you can use a HashMap in conjunction with the linked list. The HashMap will store product IDs as keys and their corresponding nodes as values. This allows for:
+
+Add Product: O(1) average time complexity using the HashMap.
+Update Product: O(1) average time complexity using the HashMap.
+Delete Product: O(1) average time complexity using the HashMap.
+Get Product: O(1) average time complexity using the HashMap.

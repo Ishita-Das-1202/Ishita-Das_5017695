@@ -1,0 +1,20 @@
+Exercise 7: Financial Forecasting
+
+
+1.	Understand Recursive Algorithms:
+
+	Explain the concept of recursion and how it can simplify certain problems.
+	
+	Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem. 
+
+	Recursion can simplify problems where same work  is repeated again and again For example in cases of divide-and-conquer strategies.
+
+4.	Analysis:
+	Discuss the time complexity of your recursive algorithm.
+	
+	Time Complexity is O(n), where n is the number of periods.
+	Explanation: The algorithm makes one recursive call for each period, resulting in a linear time complexity.
+
+	Explain how to optimize the recursive solution to avoid excessive computation.
+
+	Iterative Approach: For this specific problem, an iterative approach may be more efficient than a recursive one. The iterative solution can avoid the overhead of multiple function calls and can be simpler to implement.
